@@ -8,7 +8,7 @@ module.exports = {
     '/': {
       lang: 'zh-CN',
       title: '前端知识点总结',
-      description: '任何不能够给你快乐的编程都是耍流氓'
+      description: '一字，一言，一语，一编程'
     }
   },
   head: [
@@ -24,7 +24,9 @@ module.exports = {
   ],
   serviceWorker: true,
   theme: 'vue',
+  // 主题配置
   themeConfig: {
+    // 仓库地址
     repo: 'raneenana/study',
 
     docsDir: 'src',
