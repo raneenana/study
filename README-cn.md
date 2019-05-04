@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://vuepress.vuejs.org/" target="_blank">
-    <img width="280" src="https://github.com/vuejs/vuepress/blob/master/docs/.vuepress/public/hero.png" alt="logo">
+    <img width="280" src="https://avatars0.githubusercontent.com/u/45409728?s=460&v=4" alt="logo">
   </a>
 </p>
 
