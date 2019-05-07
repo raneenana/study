@@ -79,7 +79,8 @@ module.exports = {
               { text: '小程序', link: '/zh/miniapp/' },
               { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
-              { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
+              { text: 'TouTiao', link: '/zh/interface/TouTiao.md'},
+              { text: 'virtualDom', link: '/zh/virtualDom/DomDiff.md'}
             ]
           },
           // {
@@ -109,6 +110,9 @@ module.exports = {
           ]}],
           '/zh/miniapp/': [{title: '小程序知识点', children: [
             '', 'WXS', 'wepy组件通信', '小程序事件', '小程序路由', '小程序组件', '小程序组件化'
+          ]}],
+          '/zh/virtualDom/': [{title: 'virtualDom', children: [
+            'DomDiff'
           ]}]
         }
       }
