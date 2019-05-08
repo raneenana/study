@@ -34,54 +34,38 @@ Element DIFF紧接着以上统一类型组件继续比较下去，常见类型�
 var objA = {
   el: 'div',
   class: 'A',
-  children: [{
-        el: 'div',
-        class: 'B',
-        children: [{
-            el: 'div',
-            class: 'D',
-          },{
-            el: 'div',
-            class: 'E',
-          }]
-      },{
-        el: 'div',
-        class: 'C',
-        children: [{
-            el: 'div',
-            class: 'F',
-          },{
-            el: 'div',
-            class: 'G',
-          }]
-      }]
+  children: [
+    {el: 'div',class: 'B',children: 
+      [
+        {el: 'div',class: 'D'},
+        {el: 'div',class: 'E'}
+      ]
+    },
+    {el: 'div',class: 'C',children: 
+      [ 
+        {el: 'div',class: 'F',},
+        {el: 'div',class: 'G'}
+      ]
+    }
+  ]
 }
 var objB = {
   el: 'div',
   class: 'A',
-  children: [{
-        el: 'div',
-        class: 'C',
-        children: [{
-            el: 'div',
-            class: 'D',
-          },{
-            el: 'div',
-            class: 'G',
-          }]
-      },{
-        el: 'div',
-        class: 'B',
-        children: [{
-            el: 'div',
-            class: 'E',
-          },{
-            el: 'div',
-            class: 'F',
-          }]
-      }]
+  children: [
+    {el: 'div',class: 'C',children: [
+      {el: 'div',class: 'D'},
+      {el: 'div',class: 'G'}
+      ]
+    },
+    {
+      el: 'div',class: 'B',children: [
+        {el: 'div',class: 'E'},
+        {el: 'div',class: 'F'}]
+    }
+  ]
 }
 function difference(old,new) {
-
+  console.log([...old])
 }
 ```
