@@ -84,7 +84,8 @@ module.exports = {
               { text: '头条', link: '/zh/interface/TouTiao.md'},
               { text: 'virtualDom', link: '/zh/virtualDom/DomDiff.md'},
               { text: '防抖节流', link: '/zh/debounce/'},
-              { text: '三次握手与四次挥手', link: '/zh/debounce/hander.md'}
+              { text: '三次握手与四次挥手', link: '/zh/debounce/hander.md'},
+              { text: '百度统计', link: '/zh/debounce/baidu.md'}
             ]
           },
           // {
