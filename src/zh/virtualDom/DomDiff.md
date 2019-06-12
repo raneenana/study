@@ -66,6 +66,6 @@ var objB = {
   ]
 }
 function difference(old,new) {
-  console.log([...old])
+  console.log()
 }
 ```

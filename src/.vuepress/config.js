@@ -59,7 +59,8 @@ module.exports = {
               { text: '前端规范', link: '/zh/standard/Standard.md'},
               { text: '项目流程', link: '/zh/standard/Project.md'},
               { text: '前后端交互', link: '/zh/standard/Cooperation.md'},
-              { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'}
+              { text: '移动端兼容问题', link: '/zh/standard/Compatibility.md'},
+              { text: '项目优化', link: '/zh/standard/Improve.md'},
             ],
           },
           {
@@ -77,6 +78,7 @@ module.exports = {
               { text: 'Vue', link: '/zh/vue/' },
               { text: 'React', link: '/zh/react/'},
               { text: '小程序', link: '/zh/miniapp/' },
+              { text: 'Webpack配置', link: '/zh/webpack/'},
               { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
               { text: 'TouTiao', link: '/zh/interface/TouTiao.md'},
