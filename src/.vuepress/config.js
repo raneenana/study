@@ -81,8 +81,10 @@ module.exports = {
               { text: 'Webpack配置', link: '/zh/webpack/'},
               { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
               { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
-              { text: 'TouTiao', link: '/zh/interface/TouTiao.md'},
-              { text: 'virtualDom', link: '/zh/virtualDom/DomDiff.md'}
+              { text: '头条', link: '/zh/interface/TouTiao.md'},
+              { text: 'virtualDom', link: '/zh/virtualDom/DomDiff.md'},
+              { text: '防抖节流', link: '/zh/debounce/'},
+              { text: '三次握手与四次挥手', link: '/zh/debounce/hander.md'}
             ]
           },
           // {
